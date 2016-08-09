@@ -1,0 +1,6 @@
+#Aquí se definen los "friendly urls" (semantic), y se empatan por medio de pattern matching
+/welcome/get/$1/$2
+/home/ec2-user/Web_Server/cgi-bin/welcome_get.php?name=$1&email=$2
+
+/producto/$1
+/home/ec2-user/Web_Server/cgi-bin/productos.php?prod=$1
